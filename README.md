@@ -20,15 +20,13 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://jldevx.github.io/Social-links-profile/](https://jldevx.github.io/Social-links-profile/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
@@ -37,7 +35,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### What I learned
 
-I learned how to make a css code structure organized by using SCSS and BEM naming convention. And also how to use vw unit and clamp to create a more effective responsive layout without using media queries.
+I learned how to make a css code structure more organized by using SCSS and BEM naming convention. And also how to use vw unit and clamp to create a more effective responsive layout without using media queries.
 
 ## Author
 
