@@ -1,16 +1,16 @@
 @font-face {
-  font-family: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  font-family: url("Inter-VariableFont_slnt,wght.ttf") format("truetype");
 }
-$bg-color: hsl(0, 0%, 8%);
+
 html{
   font-size: clamp(.825rem, 2vw, 1.2rem);
 }
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 1rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 * { box-sizing: border-box; }
 body {
   height: 100vh;
-  background-color: $bg-color;
+  background-color: hsl(0, 0%, 8%);
   margin: 0;
   display: flex;
   flex-direction: column;
