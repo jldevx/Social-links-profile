@@ -1,0 +1,69 @@
+@font-face {
+  font-family: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+}
+$bg-color: hsl(0, 0%, 8%);
+html{
+  
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+* { box-sizing: border-box; }
+body {
+  height: 100vh;
+  background-color: $bg-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter';
+}
+.container {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 10px;
+  
+  &__profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-img {
+      height: 5rem;
+      width: auto;
+      border-radius: 50%;
+    }
+    &-name {
+      color: hsl(0, 0%, 100%);
+      margin-bottom: 0;
+    }
+    &-address {
+      color: hsl(75, 94%, 57%);
+      font-size: 0.8rem;
+    }
+    &-role {
+      color: hsl(0, 0%, 100%);
+      font-size: 0.8rem;
+    }
+  }
+  &__links {
+    width: 100%;
+    &-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 1rem;
+    }
+  }
+}
+.container__links-list li a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 10px;
+  text-align: center;
+}
