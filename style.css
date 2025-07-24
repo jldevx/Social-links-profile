@@ -93,10 +93,12 @@ body {
   text-align: center;
   transition: all 0.2s ease;
 }
+
 .container__links-list li a:active, .container__links-list li a:focus, .container__links-list li a:hover {
   background-color: #c5f82a;
   color: #141414;
 }
+
 .container__links-list li a:hover {
   transform: scale(1.05);
 }

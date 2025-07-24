@@ -3,7 +3,7 @@
 }
 $bg-color: hsl(0, 0%, 8%);
 html{
-  
+  font-size: clamp(.825rem, 2vw, 1.2rem);
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
@@ -11,6 +11,7 @@ html{
 body {
   height: 100vh;
   background-color: $bg-color;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +26,7 @@ body {
   justify-content: center;
   padding: 2rem;
   border-radius: 10px;
-  
+  width: min(95%, 24rem);
   &__profile {
     display: flex;
     flex-direction: column;
@@ -38,6 +39,7 @@ body {
     &-name {
       color: hsl(0, 0%, 100%);
       margin-bottom: 0;
+      font-size: 1.3rem;
     }
     &-address {
       color: hsl(75, 94%, 57%);
@@ -66,4 +68,12 @@ body {
   background-color: hsl(0, 0%, 20%);
   border-radius: 10px;
   text-align: center;
+  transition: all 0.2s ease;
+  &:active, &:focus, &:hover {
+    background-color: #c5f82a;
+    color: #141414;
+  }
+  &:hover {
+  transform: scale(1.05);
+  }
 }
