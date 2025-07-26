@@ -1,11 +1,12 @@
 @font-face {
-  font-family: url("Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  font-family: 'Inter';
+  src: url("Inter-VariableFont_slnt,wght.ttf");
 }
 
 html{
-  font-size: clamp(.825rem, 2vw, 1.2rem);
+  font-size: clamp(.725rem, 2vw, .9rem);
 }
-.attribution { font-size: 1rem; text-align: center; }
+.attribution { font-size: 1rem; text-align: center; color: white; }
 .attribution a { color: hsl(228, 45%, 44%); }
 * { box-sizing: border-box; }
 body {
@@ -53,6 +54,7 @@ body {
   &__links {
     width: 100%;
     &-list {
+      padding: 0;
       list-style: none;
       display: grid;
       grid-template-columns: 1fr;
@@ -69,11 +71,14 @@ body {
   border-radius: 10px;
   text-align: center;
   transition: all 0.2s ease;
-  &:active, &:focus, &:hover {
+  &:active, &:focus {
     background-color: #c5f82a;
     color: #141414;
+    transform: scale(1);
   }
   &:hover {
   transform: scale(1.05);
+  background-color: #c5f82a;
+  color: #141414;
   }
 }
